@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14BA5063286E3BDD0052ACE3 /* IceAndFireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5062286E3BDD0052ACE3 /* IceAndFireApp.swift */; };
+		14BA5065286E3BDD0052ACE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5064286E3BDD0052ACE3 /* ContentView.swift */; };
+		14BA5067286E3BE20052ACE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BA5066286E3BE20052ACE3 /* Assets.xcassets */; };
+		14BA506A286E3BE20052ACE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BA5069286E3BE20052ACE3 /* Preview Assets.xcassets */; };
+		14BA5074286E3BE20052ACE3 /* IceAndFireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5073286E3BE20052ACE3 /* IceAndFireTests.swift */; };
+		14BA507E286E3BE20052ACE3 /* IceAndFireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA507D286E3BE20052ACE3 /* IceAndFireUITests.swift */; };
+		14BA5080286E3BE20052ACE3 /* IceAndFireUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA507F286E3BE20052ACE3 /* IceAndFireUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14BA5070286E3BE20052ACE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14BA5057286E3BDD0052ACE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14BA505E286E3BDD0052ACE3;
+			remoteInfo = IceAndFire;
+		};
+		14BA507A286E3BE20052ACE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14BA5057286E3BDD0052ACE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14BA505E286E3BDD0052ACE3;
+			remoteInfo = IceAndFire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14BA505F286E3BDD0052ACE3 /* IceAndFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceAndFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BA5062286E3BDD0052ACE3 /* IceAndFireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireApp.swift; sourceTree = "<group>"; };
+		14BA5064286E3BDD0052ACE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14BA5066286E3BE20052ACE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14BA5069286E3BE20052ACE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14BA506F286E3BE20052ACE3 /* IceAndFireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceAndFireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BA5073286E3BE20052ACE3 /* IceAndFireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireTests.swift; sourceTree = "<group>"; };
+		14BA5079286E3BE20052ACE3 /* IceAndFireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceAndFireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BA507D286E3BE20052ACE3 /* IceAndFireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireUITests.swift; sourceTree = "<group>"; };
+		14BA507F286E3BE20052ACE3 /* IceAndFireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14BA505C286E3BDD0052ACE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BA506C286E3BE20052ACE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BA5076286E3BE20052ACE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14BA5056286E3BDD0052ACE3 = {
+			isa = PBXGroup;
+			children = (
+				14BA5061286E3BDD0052ACE3 /* IceAndFire */,
+				14BA5072286E3BE20052ACE3 /* IceAndFireTests */,
+				14BA507C286E3BE20052ACE3 /* IceAndFireUITests */,
+				14BA5060286E3BDD0052ACE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14BA5060286E3BDD0052ACE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14BA505F286E3BDD0052ACE3 /* IceAndFire.app */,
+				14BA506F286E3BE20052ACE3 /* IceAndFireTests.xctest */,
+				14BA5079286E3BE20052ACE3 /* IceAndFireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14BA5061286E3BDD0052ACE3 /* IceAndFire */ = {
+			isa = PBXGroup;
+			children = (
+				14BA5062286E3BDD0052ACE3 /* IceAndFireApp.swift */,
+				14BA5064286E3BDD0052ACE3 /* ContentView.swift */,
+				14BA5066286E3BE20052ACE3 /* Assets.xcassets */,
+				14BA5068286E3BE20052ACE3 /* Preview Content */,
+			);
+			path = IceAndFire;
+			sourceTree = "<group>";
+		};
+		14BA5068286E3BE20052ACE3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14BA5069286E3BE20052ACE3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14BA5072286E3BE20052ACE3 /* IceAndFireTests */ = {
+			isa = PBXGroup;
+			children = (
+				14BA5073286E3BE20052ACE3 /* IceAndFireTests.swift */,
+			);
+			path = IceAndFireTests;
+			sourceTree = "<group>";
+		};
+		14BA507C286E3BE20052ACE3 /* IceAndFireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14BA507D286E3BE20052ACE3 /* IceAndFireUITests.swift */,
+				14BA507F286E3BE20052ACE3 /* IceAndFireUITestsLaunchTests.swift */,
+			);
+			path = IceAndFireUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14BA505E286E3BDD0052ACE3 /* IceAndFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BA5083286E3BE20052ACE3 /* Build configuration list for PBXNativeTarget "IceAndFire" */;
+			buildPhases = (
+				14BA505B286E3BDD0052ACE3 /* Sources */,
+				14BA505C286E3BDD0052ACE3 /* Frameworks */,
+				14BA505D286E3BDD0052ACE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IceAndFire;
+			productName = IceAndFire;
+			productReference = 14BA505F286E3BDD0052ACE3 /* IceAndFire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14BA506E286E3BE20052ACE3 /* IceAndFireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BA5086286E3BE20052ACE3 /* Build configuration list for PBXNativeTarget "IceAndFireTests" */;
+			buildPhases = (
+				14BA506B286E3BE20052ACE3 /* Sources */,
+				14BA506C286E3BE20052ACE3 /* Frameworks */,
+				14BA506D286E3BE20052ACE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14BA5071286E3BE20052ACE3 /* PBXTargetDependency */,
+			);
+			name = IceAndFireTests;
+			productName = IceAndFireTests;
+			productReference = 14BA506F286E3BE20052ACE3 /* IceAndFireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14BA5078286E3BE20052ACE3 /* IceAndFireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BA5089286E3BE20052ACE3 /* Build configuration list for PBXNativeTarget "IceAndFireUITests" */;
+			buildPhases = (
+				14BA5075286E3BE20052ACE3 /* Sources */,
+				14BA5076286E3BE20052ACE3 /* Frameworks */,
+				14BA5077286E3BE20052ACE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14BA507B286E3BE20052ACE3 /* PBXTargetDependency */,
+			);
+			name = IceAndFireUITests;
+			productName = IceAndFireUITests;
+			productReference = 14BA5079286E3BE20052ACE3 /* IceAndFireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14BA5057286E3BDD0052ACE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					14BA505E286E3BDD0052ACE3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					14BA506E286E3BE20052ACE3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 14BA505E286E3BDD0052ACE3;
+					};
+					14BA5078286E3BE20052ACE3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 14BA505E286E3BDD0052ACE3;
+					};
+				};
+			};
+			buildConfigurationList = 14BA505A286E3BDD0052ACE3 /* Build configuration list for PBXProject "IceAndFire" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14BA5056286E3BDD0052ACE3;
+			productRefGroup = 14BA5060286E3BDD0052ACE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14BA505E286E3BDD0052ACE3 /* IceAndFire */,
+				14BA506E286E3BE20052ACE3 /* IceAndFireTests */,
+				14BA5078286E3BE20052ACE3 /* IceAndFireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14BA505D286E3BDD0052ACE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BA506A286E3BE20052ACE3 /* Preview Assets.xcassets in Resources */,
+				14BA5067286E3BE20052ACE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BA506D286E3BE20052ACE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BA5077286E3BE20052ACE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14BA505B286E3BDD0052ACE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BA5065286E3BDD0052ACE3 /* ContentView.swift in Sources */,
+				14BA5063286E3BDD0052ACE3 /* IceAndFireApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BA506B286E3BE20052ACE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BA5074286E3BE20052ACE3 /* IceAndFireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BA5075286E3BE20052ACE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BA5080286E3BE20052ACE3 /* IceAndFireUITestsLaunchTests.swift in Sources */,
+				14BA507E286E3BE20052ACE3 /* IceAndFireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14BA5071286E3BE20052ACE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14BA505E286E3BDD0052ACE3 /* IceAndFire */;
+			targetProxy = 14BA5070286E3BE20052ACE3 /* PBXContainerItemProxy */;
+		};
+		14BA507B286E3BE20052ACE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14BA505E286E3BDD0052ACE3 /* IceAndFire */;
+			targetProxy = 14BA507A286E3BE20052ACE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14BA5081286E3BE20052ACE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14BA5082286E3BE20052ACE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14BA5084286E3BE20052ACE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IceAndFire/Preview Content\"";
+				DEVELOPMENT_TEAM = XKQMZJ6CQG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.dbarchmann.IceAndFire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14BA5085286E3BE20052ACE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IceAndFire/Preview Content\"";
+				DEVELOPMENT_TEAM = XKQMZJ6CQG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.dbarchmann.IceAndFire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14BA5087286E3BE20052ACE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XKQMZJ6CQG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.dbarchmann.IceAndFireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceAndFire.app/IceAndFire";
+			};
+			name = Debug;
+		};
+		14BA5088286E3BE20052ACE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XKQMZJ6CQG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.dbarchmann.IceAndFireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceAndFire.app/IceAndFire";
+			};
+			name = Release;
+		};
+		14BA508A286E3BE20052ACE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XKQMZJ6CQG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.dbarchmann.IceAndFireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IceAndFire;
+			};
+			name = Debug;
+		};
+		14BA508B286E3BE20052ACE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XKQMZJ6CQG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.dbarchmann.IceAndFireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IceAndFire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14BA505A286E3BDD0052ACE3 /* Build configuration list for PBXProject "IceAndFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BA5081286E3BE20052ACE3 /* Debug */,
+				14BA5082286E3BE20052ACE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14BA5083286E3BE20052ACE3 /* Build configuration list for PBXNativeTarget "IceAndFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BA5084286E3BE20052ACE3 /* Debug */,
+				14BA5085286E3BE20052ACE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14BA5086286E3BE20052ACE3 /* Build configuration list for PBXNativeTarget "IceAndFireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BA5087286E3BE20052ACE3 /* Debug */,
+				14BA5088286E3BE20052ACE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14BA5089286E3BE20052ACE3 /* Build configuration list for PBXNativeTarget "IceAndFireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BA508A286E3BE20052ACE3 /* Debug */,
+				14BA508B286E3BE20052ACE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14BA5057286E3BDD0052ACE3 /* Project object */;
+}
