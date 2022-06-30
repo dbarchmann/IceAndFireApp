@@ -14,6 +14,13 @@
 		14BA5074286E3BE20052ACE3 /* IceAndFireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5073286E3BE20052ACE3 /* IceAndFireTests.swift */; };
 		14BA507E286E3BE20052ACE3 /* IceAndFireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA507D286E3BE20052ACE3 /* IceAndFireUITests.swift */; };
 		14BA5080286E3BE20052ACE3 /* IceAndFireUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA507F286E3BE20052ACE3 /* IceAndFireUITestsLaunchTests.swift */; };
+		14BA508F286E3DFD0052ACE3 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA508E286E3DFD0052ACE3 /* House.swift */; };
+		14BA5092286E41230052ACE3 /* HouseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5091286E41230052ACE3 /* HouseRow.swift */; };
+		14BA5094286E4BB30052ACE3 /* HousesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5093286E4BB30052ACE3 /* HousesList.swift */; };
+		14BA5096286E4F4B0052ACE3 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5095286E4F4B0052ACE3 /* ContentViewModel.swift */; };
+		14BA5098286E50150052ACE3 /* IceAndFireFetcherImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5097286E50150052ACE3 /* IceAndFireFetcherImpl.swift */; };
+		14BA509A286E52620052ACE3 /* IceAndFireFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5099286E52620052ACE3 /* IceAndFireFetcher.swift */; };
+		14BA509D286E591E0052ACE3 /* APIHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA509C286E591E0052ACE3 /* APIHouse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		14BA5079286E3BE20052ACE3 /* IceAndFireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceAndFireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BA507D286E3BE20052ACE3 /* IceAndFireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireUITests.swift; sourceTree = "<group>"; };
 		14BA507F286E3BE20052ACE3 /* IceAndFireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14BA508E286E3DFD0052ACE3 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		14BA5091286E41230052ACE3 /* HouseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRow.swift; sourceTree = "<group>"; };
+		14BA5093286E4BB30052ACE3 /* HousesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesList.swift; sourceTree = "<group>"; };
+		14BA5095286E4F4B0052ACE3 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		14BA5097286E50150052ACE3 /* IceAndFireFetcherImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireFetcherImpl.swift; sourceTree = "<group>"; };
+		14BA5099286E52620052ACE3 /* IceAndFireFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireFetcher.swift; sourceTree = "<group>"; };
+		14BA509C286E591E0052ACE3 /* APIHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHouse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +108,10 @@
 		14BA5061286E3BDD0052ACE3 /* IceAndFire */ = {
 			isa = PBXGroup;
 			children = (
+				14BA5090286E40FD0052ACE3 /* UI */,
+				14BA508D286E3CF40052ACE3 /* Services */,
+				14BA508C286E3CE50052ACE3 /* Model */,
 				14BA5062286E3BDD0052ACE3 /* IceAndFireApp.swift */,
-				14BA5064286E3BDD0052ACE3 /* ContentView.swift */,
 				14BA5066286E3BE20052ACE3 /* Assets.xcassets */,
 				14BA5068286E3BE20052ACE3 /* Preview Content */,
 			);
@@ -125,6 +141,51 @@
 				14BA507F286E3BE20052ACE3 /* IceAndFireUITestsLaunchTests.swift */,
 			);
 			path = IceAndFireUITests;
+			sourceTree = "<group>";
+		};
+		14BA508C286E3CE50052ACE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14BA509E286E59580052ACE3 /* AppModel */,
+				14BA509B286E589F0052ACE3 /* APIModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14BA508D286E3CF40052ACE3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				14BA5099286E52620052ACE3 /* IceAndFireFetcher.swift */,
+				14BA5097286E50150052ACE3 /* IceAndFireFetcherImpl.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		14BA5090286E40FD0052ACE3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				14BA5064286E3BDD0052ACE3 /* ContentView.swift */,
+				14BA5095286E4F4B0052ACE3 /* ContentViewModel.swift */,
+				14BA5093286E4BB30052ACE3 /* HousesList.swift */,
+				14BA5091286E41230052ACE3 /* HouseRow.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		14BA509B286E589F0052ACE3 /* APIModel */ = {
+			isa = PBXGroup;
+			children = (
+				14BA509C286E591E0052ACE3 /* APIHouse.swift */,
+			);
+			path = APIModel;
+			sourceTree = "<group>";
+		};
+		14BA509E286E59580052ACE3 /* AppModel */ = {
+			isa = PBXGroup;
+			children = (
+				14BA508E286E3DFD0052ACE3 /* House.swift */,
+			);
+			path = AppModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14BA509D286E591E0052ACE3 /* APIHouse.swift in Sources */,
 				14BA5065286E3BDD0052ACE3 /* ContentView.swift in Sources */,
+				14BA5092286E41230052ACE3 /* HouseRow.swift in Sources */,
+				14BA5096286E4F4B0052ACE3 /* ContentViewModel.swift in Sources */,
+				14BA5094286E4BB30052ACE3 /* HousesList.swift in Sources */,
+				14BA5098286E50150052ACE3 /* IceAndFireFetcherImpl.swift in Sources */,
+				14BA509A286E52620052ACE3 /* IceAndFireFetcher.swift in Sources */,
+				14BA508F286E3DFD0052ACE3 /* House.swift in Sources */,
 				14BA5063286E3BDD0052ACE3 /* IceAndFireApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
