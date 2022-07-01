@@ -1,5 +1,5 @@
 //
-//  IceAndFireFetcher.swift
+//  NetworkService.swift
 //  IceAndFire
 //
 //  Created by DIDBARCH on 30.06.22.
@@ -8,7 +8,7 @@
 import Foundation
 
 
-protocol IceAndFireFetcher {
+protocol NetworkService {
     /**
      Fetches a list of houses
      */

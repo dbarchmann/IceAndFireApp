@@ -1,5 +1,5 @@
 //
-//  IceAndFireFetcher.swift
+//  NetworkServiceImpl.swift
 //  IceAndFire
 //
 //  Created by DIDBARCH on 30.06.22.
@@ -8,12 +8,12 @@
 import Foundation
 
 
-public class IceAndFireFetcherImpl: IceAndFireFetcher {
+public class NetworkServiceImpl: NetworkService {
     
     private static let houseURLString = "https://anapioficeandfire.com/api/houses"
     
     func fetchHouses() async throws -> [House] {
-        guard let houseURL = URL(string: IceAndFireFetcherImpl.houseURLString) else {
+        guard let houseURL = URL(string: NetworkServiceImpl.houseURLString) else {
             return []
         }
         let (data, _) = try await URLSession.shared.data(from: houseURL)

@@ -15,9 +15,6 @@ struct ContentView: View {
             .onAppear() {
                 viewModel.fetchData()
             }
-            .refreshable {
-                await viewModel.fetchData()
-            }
     }
 }
 
