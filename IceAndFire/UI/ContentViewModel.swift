@@ -8,21 +8,17 @@
 import Foundation
 import SwiftUI
 
+@MainActor
 final class ContentViewModel: ObservableObject {
     
     @Published var houses: [House] = []
     
     let service = IceAndFireFetcherImpl()
     
-    init() {
-        self.fetchData()
-    }
-    
     func fetchData() {
         Task.init {
             do {
                 self.houses = try await service.fetchHouses()
-                print(houses)
             } catch {
                 print(error)
             }

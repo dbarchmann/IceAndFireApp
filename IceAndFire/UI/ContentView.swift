@@ -11,8 +11,13 @@ struct ContentView: View {
     @ObservedObject var viewModel: ContentViewModel
     
     var body: some View {
-        HousesList(viewModel: viewModel)
-            .padding()
+        HousesList(houses: viewModel.houses)
+            .onAppear() {
+                viewModel.fetchData()
+            }
+            .refreshable {
+                await viewModel.fetchData()
+            }
     }
 }
 

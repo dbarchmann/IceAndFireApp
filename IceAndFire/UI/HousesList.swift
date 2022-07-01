@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct HousesList: View {
-    let viewModel: ContentViewModel
+    let houses: [House]
     
     var body: some View {
-        List(viewModel.houses) { house in
+        List(houses) { house in
             HouseRow(house: house)
                 .padding([.bottom, .top])
         }
@@ -20,6 +20,6 @@ struct HousesList: View {
 
 struct HousesList_Previews: PreviewProvider {
     static var previews: some View {
-        HousesList(viewModel: ContentViewModel())
+        HousesList(houses: [House(id: "1", url: "", name: "House Algood", region: "The Westerlands"), House(id: "2", url: "", name: "House Allyrion of Godsgrace", region: "Dorne")])
     }
 }
