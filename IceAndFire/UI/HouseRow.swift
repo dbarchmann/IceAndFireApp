@@ -12,7 +12,7 @@ struct HouseRow: View {
     
     var body: some View {
         HStack {
-            Image("House_Algood")
+            Image(uiImage: house.coatOfArmsImage)
                 .resizable()
                 .frame(width: 50, height: 50)
             VStack(alignment: .leading) {

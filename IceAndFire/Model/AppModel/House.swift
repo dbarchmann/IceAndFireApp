@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import UIKit
 
 struct House: Hashable, Codable, Identifiable {
     var id: String
@@ -14,8 +15,12 @@ struct House: Hashable, Codable, Identifiable {
     var name: String
     var region: String
     
-    private var coatOfArmsImage: Image {
-        Image(name)
+    var coatOfArmsImage: UIImage {
+        if let uiImage = UIImage(named: name) {
+            return uiImage
+        } else {
+            return UIImage(named: "Unknown")!
+        }
     }
     
     init(id: String, url: String, name: String, region: String) {
