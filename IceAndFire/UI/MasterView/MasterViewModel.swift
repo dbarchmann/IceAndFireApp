@@ -24,6 +24,7 @@ final class MasterViewModel: ObservableObject {
                 var houses: [House] = []
                 while page > 0 {
                     let apiHouses = try await networkService.fetchHouses(with: page)
+                    
                     if apiHouses.count > 0 {
                         for apiHouse in apiHouses {
                             houses.append(House(from: apiHouse))
@@ -32,6 +33,7 @@ final class MasterViewModel: ObservableObject {
                     } else {
                         page = 0
                     }
+                    
                     self.houses = houses
                 }
             } catch {

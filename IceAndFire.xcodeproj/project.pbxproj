@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143EE95E28739D240050EB17 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143EE95D28739D240050EB17 /* ActivityIndicator.swift */; };
 		14BA5063286E3BDD0052ACE3 /* IceAndFireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5062286E3BDD0052ACE3 /* IceAndFireApp.swift */; };
 		14BA5065286E3BDD0052ACE3 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5064286E3BDD0052ACE3 /* MasterView.swift */; };
 		14BA5067286E3BE20052ACE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BA5066286E3BE20052ACE3 /* Assets.xcassets */; };
@@ -24,7 +25,6 @@
 		14BA50A1286ED8250052ACE3 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = 14BA50A0286ED8240052ACE3 /* Resolver */; };
 		14BA50A9286EDAA50052ACE3 /* App+Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA50A8286EDAA50052ACE3 /* App+Resolver.swift */; };
 		14E1C6D128732FB8003BA726 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1C6D028732FB8003BA726 /* DetailView.swift */; };
-		14E1C6D328732FC9003BA726 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E1C6D228732FC9003BA726 /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		143EE95D28739D240050EB17 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		14BA505F286E3BDD0052ACE3 /* IceAndFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceAndFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BA5062286E3BDD0052ACE3 /* IceAndFireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireApp.swift; sourceTree = "<group>"; };
 		14BA5064286E3BDD0052ACE3 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		14BA509C286E591E0052ACE3 /* APIHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHouse.swift; sourceTree = "<group>"; };
 		14BA50A8286EDAA50052ACE3 /* App+Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Resolver.swift"; sourceTree = "<group>"; };
 		14E1C6D028732FB8003BA726 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		14E1C6D228732FC9003BA726 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +175,7 @@
 			children = (
 				14E1C6CE28732F82003BA726 /* MasterView */,
 				14E1C6CF28732F90003BA726 /* DetailView */,
+				143EE95D28739D240050EB17 /* ActivityIndicator.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -210,7 +211,6 @@
 			isa = PBXGroup;
 			children = (
 				14E1C6D028732FB8003BA726 /* DetailView.swift */,
-				14E1C6D228732FC9003BA726 /* DetailViewModel.swift */,
 			);
 			path = DetailView;
 			sourceTree = "<group>";
@@ -355,10 +355,10 @@
 				14BA5065286E3BDD0052ACE3 /* MasterView.swift in Sources */,
 				14BA5092286E41230052ACE3 /* HouseRow.swift in Sources */,
 				14BA5096286E4F4B0052ACE3 /* MasterViewModel.swift in Sources */,
+				143EE95E28739D240050EB17 /* ActivityIndicator.swift in Sources */,
 				14BA5094286E4BB30052ACE3 /* HousesList.swift in Sources */,
 				14E1C6D128732FB8003BA726 /* DetailView.swift in Sources */,
 				14BA5098286E50150052ACE3 /* NetworkServiceImpl.swift in Sources */,
-				14E1C6D328732FC9003BA726 /* DetailViewModel.swift in Sources */,
 				14BA509A286E52620052ACE3 /* NetworkService.swift in Sources */,
 				14BA508F286E3DFD0052ACE3 /* House.swift in Sources */,
 				14BA5063286E3BDD0052ACE3 /* IceAndFireApp.swift in Sources */,

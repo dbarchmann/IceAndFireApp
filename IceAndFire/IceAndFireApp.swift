@@ -12,6 +12,7 @@ import Resolver
 struct IceAndFireApp: App {
     
     init() {
+        // Register all services for dependency injection
         Resolver.registerAllServices()
     }
     

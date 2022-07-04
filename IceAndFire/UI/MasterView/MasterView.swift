@@ -10,12 +10,19 @@ import SwiftUI
 struct MasterView: View {
     @ObservedObject var viewModel: MasterViewModel
     
+    @State var isShowingActivityIndicator = false
+    
     var body: some View {
         NavigationView {
             HousesList(houses: viewModel.houses)
+                .delayedActivityIndicator(isActive: $isShowingActivityIndicator)
                 .onAppear() {
+                    self.isShowingActivityIndicator = true
                     viewModel.fetchData()
                 }
+                .onChange(of: viewModel.houses, perform: { _ in
+                    self.isShowingActivityIndicator = false
+                })
                 .navigationTitle("Houses of Westeros")
         }
         .navigationViewStyle(.stack)
