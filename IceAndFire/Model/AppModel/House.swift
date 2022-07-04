@@ -14,8 +14,12 @@ struct House: Hashable, Codable, Identifiable {
     var url: String
     var name: String
     var region: String
+    var coatOfArms: String
+    var words: String
+    var titles: [String]
     
     var coatOfArmsImage: UIImage {
+        // TODO: This is not a good asset matching implementation, but enough for the purpose of this demo
         if let uiImage = UIImage(named: "House " + name.split(separator: " ")[1]) {
             return uiImage
         } else {
@@ -23,11 +27,14 @@ struct House: Hashable, Codable, Identifiable {
         }
     }
     
-    init(id: String, url: String, name: String, region: String) {
+    init(id: String, url: String, name: String, region: String, coatOfArms: String, words: String, titles: [String]) {
         self.id = id
         self.url = url
         self.name = name
         self.region = region
+        self.coatOfArms = coatOfArms
+        self.words = words
+        self.titles = titles
     }
     
     init(from apiModel: APIHouse) {
@@ -35,5 +42,8 @@ struct House: Hashable, Codable, Identifiable {
         self.url = apiModel.url
         self.name = apiModel.name
         self.region = apiModel.region
+        self.coatOfArms = apiModel.coatOfArms
+        self.words = apiModel.words
+        self.titles = apiModel.titles
     }
 }

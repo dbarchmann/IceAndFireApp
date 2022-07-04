@@ -11,16 +11,20 @@ struct MasterView: View {
     @ObservedObject var viewModel: MasterViewModel
     
     var body: some View {
-        HousesList(houses: viewModel.houses)
-            .onAppear() {
-                viewModel.fetchData()
-            }
+        NavigationView {
+            HousesList(houses: viewModel.houses)
+                .onAppear() {
+                    viewModel.fetchData()
+                }
+                .navigationTitle("Houses of Westeros")
+        }
+        .navigationViewStyle(.stack)
     }
 }
 
 struct MasterView_Previews: PreviewProvider {
     static var previews: some View {
-        MasterView(viewModel: MasterViewModel(houses: [House(id: "1", url: "", name: "House Algood", region: "The Westerlands"), House(id: "2", url: "", name: "House Allyrion of Godsgrace", region: "Dorne")]))
+        MasterView(viewModel: MasterViewModel(houses: [House(id: "1", url: "", name: "House Algood", region: "The Westerlands", coatOfArms: "", words: "", titles: []), House(id: "2", url: "", name: "House Allyrion of Godsgrace", region: "Dorne", coatOfArms: "", words: "", titles: [])]))
     }
 }
 

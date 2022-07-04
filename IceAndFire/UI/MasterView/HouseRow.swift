@@ -27,7 +27,7 @@ struct HouseRow: View {
 
 struct HouseRow_Previews: PreviewProvider {
     static var previews: some View {
-        HouseRow(house: House(id: "1", url: "", name: "House Algood", region: "The Westerlands"))
+        HouseRow(house: House(id: "1", url: "", name: "House Algood", region: "The Westerlands", coatOfArms: "", words: "", titles: []))
             .previewLayout(.fixed(width: 300, height: 70))
     }
 }
