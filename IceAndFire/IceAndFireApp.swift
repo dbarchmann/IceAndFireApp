@@ -17,7 +17,7 @@ struct IceAndFireApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: ContentViewModel())
+            MasterView(viewModel: MasterViewModel())
         }
     }
 }

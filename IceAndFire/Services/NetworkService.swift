@@ -11,6 +11,7 @@ import Foundation
 protocol NetworkService {
     /**
      Fetches a list of houses
+     - Returns: A list of houses
      */
-    func fetchHouses() async throws -> [House]
+    func fetchHouses(with page: Int) async throws -> [APIHouse]
 }

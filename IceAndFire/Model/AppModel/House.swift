@@ -16,7 +16,7 @@ struct House: Hashable, Codable, Identifiable {
     var region: String
     
     var coatOfArmsImage: UIImage {
-        if let uiImage = UIImage(named: name) {
+        if let uiImage = UIImage(named: "House " + name.split(separator: " ")[1]) {
             return uiImage
         } else {
             return UIImage(named: "Unknown")!
