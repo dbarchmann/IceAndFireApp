@@ -15,10 +15,18 @@ final class MasterViewModel: ObservableObject {
     @Injected private var networkService: NetworkService
     
     @Published var houses: [House] = []
+    var isFetchingData = false
     
     private var page: Int = 1
         
     func fetchData() {
+        // We only fetch data once
+        guard self.houses.isEmpty else {
+            return
+        }
+        
+        self.isFetchingData = true
+        
         Task {
             do {
                 var houses: [House] = []
@@ -36,6 +44,7 @@ final class MasterViewModel: ObservableObject {
                     
                     self.houses = houses
                 }
+                self.isFetchingData = false
             } catch {
                 // TODO: Propper error handling, like displaying a user facing alert or at least using a Logger, should be done here. For this demo case it will not be implemented
                 print(error)

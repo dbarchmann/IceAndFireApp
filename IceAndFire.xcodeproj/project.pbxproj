@@ -93,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		143EE95F2873A3BA0050EB17 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				143EE95D28739D240050EB17 /* ActivityIndicator.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
 		14BA5056286E3BDD0052ACE3 = {
 			isa = PBXGroup;
 			children = (
@@ -175,7 +183,7 @@
 			children = (
 				14E1C6CE28732F82003BA726 /* MasterView */,
 				14E1C6CF28732F90003BA726 /* DetailView */,
-				143EE95D28739D240050EB17 /* ActivityIndicator.swift */,
+				143EE95F2873A3BA0050EB17 /* ViewModifier */,
 			);
 			path = UI;
 			sourceTree = "<group>";

@@ -17,8 +17,8 @@ struct MasterView: View {
             HousesList(houses: viewModel.houses)
                 .delayedActivityIndicator(isActive: $isShowingActivityIndicator)
                 .onAppear() {
-                    self.isShowingActivityIndicator = true
                     viewModel.fetchData()
+                    self.isShowingActivityIndicator = self.viewModel.isFetchingData ? true : false
                 }
                 .onChange(of: viewModel.houses, perform: { _ in
                     self.isShowingActivityIndicator = false
