@@ -50,7 +50,7 @@ final class MasterViewModel: ObservableObject {
                 }
                 self.isFetchingData = false
             } catch {
-                // TODO: Propper error handling, like displaying a user facing alert or at least using a Logger, should be done here. For this demo case
+                // TODO: Propper error handling, like displaying a user facing alert or at least using a Logger, should be done here. For this demo case it will not be implemented
                 print(error)
             }
         }

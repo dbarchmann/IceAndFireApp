@@ -30,7 +30,6 @@ struct DetailView: View {
                     .offset(y: 10)
             }
                        
-            
             VStack(alignment: .leading, spacing: 5.0) {
                 Text("Region")
                     .font(.headline)
@@ -53,7 +52,6 @@ struct DetailView: View {
                     .font(.footnote)
             }
             .padding()
-            
             
             Spacer()
         }

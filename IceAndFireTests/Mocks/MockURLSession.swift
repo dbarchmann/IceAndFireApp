@@ -11,7 +11,7 @@ import Foundation
 
 struct GenericError: Error {
     var errorDescription: String {
-        return "Something went wrong"
+        return "Please provide a response and data"
     }
 }
 
