@@ -10,9 +10,17 @@ import Foundation
 
 extension Resolver: ResolverRegistering {
     public static func registerAllServices() {
-        register { NetworkServiceImpl() as NetworkService }.scope(.application)
-        register(URLSessionProtocol.self) {
-            return URLSession(configuration: .default)
+        switch AppConfiguration.shared.environment {
+        case .production:
+            register { NetworkServiceImpl() as NetworkService }.scope(.application)
+            register(URLSessionProtocol.self) {
+                return URLSession(configuration: .default)
+            }
+        case .uiTest:
+            register { UITestNetworkServiceMock() as NetworkService }.scope(.application)
+            register(URLSessionProtocol.self) {
+                return URLSession(configuration: .default)
+            }
         }
     }
 }

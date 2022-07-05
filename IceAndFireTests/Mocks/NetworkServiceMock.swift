@@ -16,6 +16,4 @@ class NetworkServiceMock: NetworkService {
     func fetchHouses(with page: Int) async throws -> [APIHouse] {
         return response
     }
-    
-    
 }
