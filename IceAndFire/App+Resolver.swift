@@ -6,9 +6,13 @@
 //
 
 import Resolver
+import Foundation
 
 extension Resolver: ResolverRegistering {
     public static func registerAllServices() {
         register { NetworkServiceImpl() as NetworkService }.scope(.application)
+        register(URLSessionProtocol.self) {
+            return URLSession(configuration: .default)
+        }
     }
 }

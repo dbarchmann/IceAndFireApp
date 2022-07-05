@@ -14,8 +14,7 @@ struct DetailView: View {
         VStack(alignment: .leading) {
             Image("background")
                 .resizable()
-                .ignoresSafeArea(edges: .top)
-                .frame(height: 100)
+                .frame(height: 200)
                 .aspectRatio(contentMode: .fit)
             
             HStack(alignment: .top) {

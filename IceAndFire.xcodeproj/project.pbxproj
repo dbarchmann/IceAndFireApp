@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14030FA22874783100E9018B /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14030FA12874783100E9018B /* MockURLSession.swift */; };
+		14030FA528747AD100E9018B /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14030FA428747AD100E9018B /* URLSessionProtocol.swift */; };
+		14030FA9287496A600E9018B /* MasterViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14030FA8287496A600E9018B /* MasterViewModelTests.swift */; };
+		14030FAB287496FD00E9018B /* NetworkServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14030FAA287496FD00E9018B /* NetworkServiceMock.swift */; };
 		143EE95E28739D240050EB17 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143EE95D28739D240050EB17 /* ActivityIndicator.swift */; };
 		14BA5063286E3BDD0052ACE3 /* IceAndFireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5062286E3BDD0052ACE3 /* IceAndFireApp.swift */; };
 		14BA5065286E3BDD0052ACE3 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5064286E3BDD0052ACE3 /* MasterView.swift */; };
 		14BA5067286E3BE20052ACE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BA5066286E3BE20052ACE3 /* Assets.xcassets */; };
 		14BA506A286E3BE20052ACE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BA5069286E3BE20052ACE3 /* Preview Assets.xcassets */; };
-		14BA5074286E3BE20052ACE3 /* IceAndFireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5073286E3BE20052ACE3 /* IceAndFireTests.swift */; };
+		14BA5074286E3BE20052ACE3 /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA5073286E3BE20052ACE3 /* NetworkServiceTests.swift */; };
 		14BA507E286E3BE20052ACE3 /* IceAndFireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA507D286E3BE20052ACE3 /* IceAndFireUITests.swift */; };
 		14BA5080286E3BE20052ACE3 /* IceAndFireUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA507F286E3BE20052ACE3 /* IceAndFireUITestsLaunchTests.swift */; };
 		14BA508F286E3DFD0052ACE3 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA508E286E3DFD0052ACE3 /* House.swift */; };
@@ -45,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14030FA12874783100E9018B /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		14030FA428747AD100E9018B /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		14030FA8287496A600E9018B /* MasterViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewModelTests.swift; sourceTree = "<group>"; };
+		14030FAA287496FD00E9018B /* NetworkServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceMock.swift; sourceTree = "<group>"; };
 		143EE95D28739D240050EB17 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		14BA505F286E3BDD0052ACE3 /* IceAndFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceAndFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BA5062286E3BDD0052ACE3 /* IceAndFireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireApp.swift; sourceTree = "<group>"; };
@@ -52,7 +60,7 @@
 		14BA5066286E3BE20052ACE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14BA5069286E3BE20052ACE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14BA506F286E3BE20052ACE3 /* IceAndFireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceAndFireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14BA5073286E3BE20052ACE3 /* IceAndFireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireTests.swift; sourceTree = "<group>"; };
+		14BA5073286E3BE20052ACE3 /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
 		14BA5079286E3BE20052ACE3 /* IceAndFireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceAndFireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BA507D286E3BE20052ACE3 /* IceAndFireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireUITests.swift; sourceTree = "<group>"; };
 		14BA507F286E3BE20052ACE3 /* IceAndFireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAndFireUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -93,6 +101,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14030FA32874783900E9018B /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				14030FA12874783100E9018B /* MockURLSession.swift */,
+				14030FAA287496FD00E9018B /* NetworkServiceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		14030FA62874967E00E9018B /* ServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				14BA5073286E3BE20052ACE3 /* NetworkServiceTests.swift */,
+			);
+			path = ServiceTests;
+			sourceTree = "<group>";
+		};
+		14030FA72874969200E9018B /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				14030FA8287496A600E9018B /* MasterViewModelTests.swift */,
+			);
+			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
 		143EE95F2873A3BA0050EB17 /* ViewModifier */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,7 +179,9 @@
 		14BA5072286E3BE20052ACE3 /* IceAndFireTests */ = {
 			isa = PBXGroup;
 			children = (
-				14BA5073286E3BE20052ACE3 /* IceAndFireTests.swift */,
+				14030FA72874969200E9018B /* ViewModelTests */,
+				14030FA62874967E00E9018B /* ServiceTests */,
+				14030FA32874783900E9018B /* Mocks */,
 			);
 			path = IceAndFireTests;
 			sourceTree = "<group>";
@@ -174,6 +209,7 @@
 			children = (
 				14BA5099286E52620052ACE3 /* NetworkService.swift */,
 				14BA5097286E50150052ACE3 /* NetworkServiceImpl.swift */,
+				14030FA428747AD100E9018B /* URLSessionProtocol.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -367,6 +403,7 @@
 				14BA5094286E4BB30052ACE3 /* HousesList.swift in Sources */,
 				14E1C6D128732FB8003BA726 /* DetailView.swift in Sources */,
 				14BA5098286E50150052ACE3 /* NetworkServiceImpl.swift in Sources */,
+				14030FA528747AD100E9018B /* URLSessionProtocol.swift in Sources */,
 				14BA509A286E52620052ACE3 /* NetworkService.swift in Sources */,
 				14BA508F286E3DFD0052ACE3 /* House.swift in Sources */,
 				14BA5063286E3BDD0052ACE3 /* IceAndFireApp.swift in Sources */,
@@ -378,7 +415,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14BA5074286E3BE20052ACE3 /* IceAndFireTests.swift in Sources */,
+				14030FAB287496FD00E9018B /* NetworkServiceMock.swift in Sources */,
+				14030FA22874783100E9018B /* MockURLSession.swift in Sources */,
+				14030FA9287496A600E9018B /* MasterViewModelTests.swift in Sources */,
+				14BA5074286E3BE20052ACE3 /* NetworkServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

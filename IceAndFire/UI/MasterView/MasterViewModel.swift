@@ -33,11 +33,15 @@ final class MasterViewModel: ObservableObject {
                 while page > 0 {
                     let apiHouses = try await networkService.fetchHouses(with: page)
                     
-                    if apiHouses.count > 0 {
+                    if !apiHouses.isEmpty {
                         for apiHouse in apiHouses {
                             houses.append(House(from: apiHouse))
                         }
-                        page += 1
+                        if apiHouses.count == 50 {
+                            page += 1
+                        } else {
+                            page = 0
+                        }
                     } else {
                         page = 0
                     }
@@ -46,7 +50,7 @@ final class MasterViewModel: ObservableObject {
                 }
                 self.isFetchingData = false
             } catch {
-                // TODO: Propper error handling, like displaying a user facing alert or at least using a Logger, should be done here. For this demo case it will not be implemented
+                // TODO: Propper error handling, like displaying a user facing alert or at least using a Logger, should be done here. For this demo case
                 print(error)
             }
         }

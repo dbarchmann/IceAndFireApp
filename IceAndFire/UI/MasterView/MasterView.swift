@@ -24,6 +24,7 @@ struct MasterView: View {
                     self.isShowingActivityIndicator = false
                 })
                 .navigationTitle("Houses of Westeros")
+                .navigationBarTitleDisplayMode(.inline)
         }
         .navigationViewStyle(.stack)
     }
