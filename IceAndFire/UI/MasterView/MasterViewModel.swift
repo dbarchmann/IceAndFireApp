@@ -37,11 +37,7 @@ final class MasterViewModel: ObservableObject {
                         for apiHouse in apiHouses {
                             houses.append(House(from: apiHouse))
                         }
-                        if apiHouses.count == 50 {
-                            page += 1
-                        } else {
-                            page = 0
-                        }
+                        page = apiHouses.count == 50 ? page + 1 : 0
                     } else {
                         page = 0
                     }
